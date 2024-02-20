@@ -1,4 +1,4 @@
-# Vagrant Box
+# Vagrant Box Setup for Remote Python Development
 
 This Vagrant box is configured with the following features:
 
@@ -22,7 +22,13 @@ Configure your theme in the first run.
 
 ## Python Virtual Environments
 
-Python virtual environments are automatically activated when you navigate into a directory containing one. To take advantage of this feature, create your virtual environments in the `~/.virtualenvs` directory.
+Python virtual environments are automatically activated when you navigate into a directory containing one. To take advantage of this feature, create your virtual environments in one of the following directory 
+- `~/.virtualenvs` (recommended)
+- `venv` or `.venv` directory of your project
+
+## Settings for Remote Python development
+
+You should be able to easily connect VS Code and Pycharm IDEs with the box. 
 
 ## Getting Started
 
